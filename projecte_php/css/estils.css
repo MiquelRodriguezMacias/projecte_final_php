@@ -7,8 +7,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Segoe UI", Arial, sans-serif;
-    background: #f4f7fb;
-    color: #1f2937;
+    background: #faffd9;
+    color: #305281;
     line-height: 1.5;
     font-size: 14px;
 }
@@ -33,7 +33,7 @@ body {
 
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(240, 249, 181);
     text-align: center;
     padding: 75px 25px;
 }
