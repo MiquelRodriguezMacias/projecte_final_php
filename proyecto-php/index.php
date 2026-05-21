@@ -1,8 +1,8 @@
 <?php
 require 'db.php';
 
-$sql = "SELECT id, nombre, telefono, email, fecha_alta, activo
-        FROM Socios
+$sql = "SELECT id, nom, telefon, email, data_alta, actiu
+        FROM Socis
         ORDER BY nombre";
 $res = mysqli_query($conn, $sql);
 if (!$res) die("Error SQL: " . mysqli_error($conn));
